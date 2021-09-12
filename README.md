@@ -1,0 +1,2 @@
+# ChainableIterator
+メソッドチェーン可能なcollectionメソッドの実装
