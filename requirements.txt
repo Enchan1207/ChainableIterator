@@ -1,0 +1,6 @@
+#
+# pip依存関係
+#
+
+# from GitHub
+git+https://github.com/Enchan1207/python-termdecorator
