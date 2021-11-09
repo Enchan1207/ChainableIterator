@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "edbd17392ad4a97fbf489740cc78bd107449d373f9f1c05fef59cedbf1556e6c"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "termdecorator": {
+            "git": "https://github.com/Enchan1207/python-termdecorator",
+            "ref": "c834a8ef57d9cb5162080286d80f150ff7849096"
+        }
+    },
+    "develop": {}
+}

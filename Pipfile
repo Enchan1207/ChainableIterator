@@ -1,0 +1,7 @@
+[[source]]
+name = "chainableiterator"
+url = "https://github.com/Enchan1207/ChainableIterator"
+verify_ssl = true
+
+[requires]
+python_version = "3.9"
