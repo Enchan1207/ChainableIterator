@@ -1,0 +1,26 @@
+#
+# pipでインストールできるかチェック
+#
+name: Install check
+
+on:
+  release:
+      types:
+        - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install test
+        run: |
+          python -m pip install --upgrade pip
+          pip install .

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "edbd17392ad4a97fbf489740cc78bd107449d373f9f1c05fef59cedbf1556e6c"
+            "sha256": "62a8f1702874f13ef5fba3e4a1cdd24a69a6d0852d319c530efdfeef5e7c252e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -9,8 +9,8 @@
         },
         "sources": [
             {
-                "name": "pypi",
-                "url": "https://pypi.org/simple",
+                "name": "chainableiterator",
+                "url": "https://github.com/Enchan1207/ChainableIterator",
                 "verify_ssl": true
             }
         ]
